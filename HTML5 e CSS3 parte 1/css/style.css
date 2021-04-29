@@ -3,12 +3,16 @@
   border-radius: 5px;
 }
 
+.titulo-principal {
+  padding-left: 20px;
+}
+
 .principal {
   background-color: #cccccc;
   padding: 30px;
 }
 
-h1 {
+.titulo-centralizado {
   text-align: center;
 }
 
@@ -31,10 +35,6 @@ em strong {
 .beneficios {
   background: #ffffff;
   padding: 20px;
-}
-
-h2 {
-  text-align: center;
 }
 
 ul {
