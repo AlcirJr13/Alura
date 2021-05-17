@@ -7,8 +7,13 @@ export class Cliente {
     return this._nome;
   }
 
-  constructor(nome, cpf) {
+  constructor(nome, cpf, senha) {
     this._nome = nome;
     this._cpf = cpf;
+    this._senha = senha;
+  }
+
+  autenticar() {
+    return true;
   }
 }
