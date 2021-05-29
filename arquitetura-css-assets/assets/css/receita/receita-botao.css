@@ -7,7 +7,7 @@
 }
 
 .receita__botao:hover {
-  cursor: pointer;
   background: #620404;
+  cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
