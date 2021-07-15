@@ -4,7 +4,7 @@ const inputs = document.querySelectorAll("input");
 
 inputs.forEach((input) => {
   if (input.dataset.tipo === "preco") {
-    simpleMaskMoney.setMask(input, {
+    SimpleMaskMoney.setMask(input, {
       prefix: "R$ ",
       fixed: true,
       fractionDigits: 2,
