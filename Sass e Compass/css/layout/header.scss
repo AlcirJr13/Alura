@@ -38,7 +38,7 @@ header .container {
   font-weight: lighter;
 
   @media #{$mq-mobile} {
-    osition: static;
+    position: static;
     display: block;
     text-align: center;
     width: auto;

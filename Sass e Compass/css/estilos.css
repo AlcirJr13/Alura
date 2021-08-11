@@ -1,6 +1,6 @@
 @import url(base/normalize.css);
-.sprite-sprite {
-  background-image: url('/imagens/sprite-sed99d15b73.png');
+.sprite-sprite, .sprite-icone-check, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s8ca5edb2ee.png');
   background-repeat: no-repeat;
 }
 
@@ -83,7 +83,7 @@ header .container {
 }
 @media (max-width: 980px) {
   .menu-principal {
-    osition: static;
+    position: static;
     display: block;
     text-align: center;
     width: auto;
@@ -278,19 +278,18 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+.sprite-icone-check {
+  background-position: 0 0;
+}
+
+.sprite-icone-x {
+  background-position: 0 -23px;
+}
+
+.sprite-icone-check,
+.sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/
