@@ -28,8 +28,8 @@ footer::before {
 }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: multiplicacao(3);
+  height: multiplicacao(6.5);
   position: relative;
 }
 
