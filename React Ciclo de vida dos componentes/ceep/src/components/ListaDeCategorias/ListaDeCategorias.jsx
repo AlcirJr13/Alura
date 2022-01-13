@@ -17,4 +17,3 @@ class ListaDeCategorias extends Component {
 }
 
 export default ListaDeCategorias;
-#asd
