@@ -15,19 +15,21 @@ export default {
   data() {
     return {
       titulo: "AluraPic",
-      fotos: [
-        {
-          url:
-            "http://www.osmais.com/wallpapers/201211/cachorro-flor-wallpaper-1900x1200.jpg",
-          titulo: "cachorro"
-        },
-        {
-          url:
-            "http://www.osmais.com/wallpapers/201211/cachorro-flor-wallpaper-1900x1200.jpg",
-          titulo: "Cachorro2"
-        }
-      ]
+      fotos: []
     };
+  },
+  created() {
+    let promise = this.$http.get("http://localhost:3000/v1/fotos");
+    promise
+      .then(res => res.json())
+      .then(
+        fotos => (this.fotos = fotos),
+        err => console.log(err)
+      );
+
+    //this.$this.get("http://localhost:3000/v1/fotos");
+    //.then(res=>ers.json())
+    //.then(fotos=>this.fotos = fotos)
   }
 };
 </script>
