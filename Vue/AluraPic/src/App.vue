@@ -6,7 +6,7 @@
       type="search"
       class="filtro"
       placeholder="Filtre por parte do título."
-      v-on:input="filtro = $event.target.value"
+      @input="filtro = $event.target.value"
     />
 
     <ul class="lista-fotos">
