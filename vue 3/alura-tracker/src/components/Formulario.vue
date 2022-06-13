@@ -16,7 +16,6 @@
         <div
           class="is-flex is-align-items-center is-justify-content-space-between"
         >
-          <!-- CRONOMETRO-->
           <CronometroFormulario :tempoEmSegundos="tempoEmSegundos" />
           <button class="button" @click="iniciar">
             <span class="icon">
