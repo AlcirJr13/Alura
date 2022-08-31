@@ -1,23 +1,11 @@
 <template>
   <div>
-    <div class="bg-gray-100">
-      <div class="container mx-auto flex items-center space-x-4 h-10 mb-10">
-        <NuxtLink :to="{name: 'a-empresa'}">A empresa</NuxtLink>
-        <NuxtLink :to="{name: 'servicos'}">Serviços</NuxtLink>
-        <NuxtLink :to="{name: 'produtos'}">Produtos</NuxtLink>
-      </div>
-    </div>
-    <div>
-      <div class="container mx-auto">
-        <h1 class="text-lg font-bold">A empresa</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tenetur
-          inventore nobis veritatis aperiam esse, fuga nam ullam quibusdam,
-          eaque adipisci facere magnam. Ratione magni tempore corporis hic
-          impedit unde!
-        </p>
-      </div>
-    </div>
+    <h1 class="text-lg font-bold">A empresa</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tenetur
+      inventore nobis veritatis aperiam esse, fuga nam ullam quibusdam, eaque
+      adipisci facere magnam. Ratione magni tempore corporis hic impedit unde!
+    </p>
   </div>
 </template>
 
