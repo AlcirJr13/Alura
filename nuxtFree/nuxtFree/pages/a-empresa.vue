@@ -12,6 +12,13 @@
 <script>
 export default {
   name: '',
+
+  middleware: 'auth',
+
+  //middleware() {
+  //  console.log('middlware empresa')
+  //},
+
   data() {
     return {}
   },
