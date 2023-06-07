@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
-@section('title', 'HDC Events')
+@section('title', 'Product')
 
 @section('conten')
-
+    <p>Exibindo produto</p>
 @endsection
